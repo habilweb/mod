@@ -1,0 +1,13 @@
+vendor_id: habilweb-bot-protection
+name: HABILWEB Bot Protection
+description: Reglas personalizadas para bloquear escaneos de bots, ataques comunes a WordPress y rutas sensibles de cPanel.
+version: 1.0
+enabled: true
+priority: 1000
+metadata:
+  license: MIT
+  author: Hans Gallardo
+  email: soporte@habilweb.com
+  website: https://www.habilweb.com
+rules:
+  - custom-bot-protection.conf
